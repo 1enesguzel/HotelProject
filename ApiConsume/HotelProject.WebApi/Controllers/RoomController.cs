@@ -8,7 +8,7 @@ namespace HotelProject.WebApi.Controllers
     public class RoomController : ControllerBase
     {
         [HttpGet]
-        public IActionResult RoomList() 
+        public IActionResult RoomList()
         {
             return Ok();
         }
