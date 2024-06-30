@@ -5,30 +5,30 @@ namespace HotelProject.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RoomController : ControllerBase
+    public class StaffController : ControllerBase
     {
         [HttpGet]
-        public IActionResult RoomList()
+        public IActionResult RoomStaff()
         {
             return Ok();
         }
         [HttpPost]
-        public IActionResult AddRoom()
+        public IActionResult AddStaff()
         {
             return Ok();
         }
         [HttpDelete]
-        public IActionResult DeleteRoom()
+        public IActionResult DeleteStaff()
         {
             return Ok();
         }
         [HttpPut]
-        public IActionResult UpdateRoom()
+        public IActionResult UpdateStaff()
         {
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetRoom()
+        public IActionResult GetStaff()
         {
             return Ok();
         }
